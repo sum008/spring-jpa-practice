@@ -25,8 +25,6 @@ import lombok.ToString;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
 @ToString(exclude = "courseEntity")
 @Builder
 @Table(name="tbl_teacher")
