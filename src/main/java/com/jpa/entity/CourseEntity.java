@@ -51,7 +51,8 @@ public class CourseEntity {
 	 * inverseJoinColumn will also take array of @JoinColumn, but here the name will
 	 * define the foreign key of the table which this (current) table is making
 	 * relation (here it will be student_id as course is making relation with
-	 * student) so, @JoinTable will create a table with 2 columns 
+	 * student, or more specific -> student is making relation with course) so, 
+	 * @JoinTable will create a table with 2 columns 
 	 * 1. course_id (foreign key -> primary key of course table) 
 	 * 2. student_id (foreign key -> primary key of student table)
 	 */
